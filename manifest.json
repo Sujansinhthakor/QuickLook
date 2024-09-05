@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Selected Text Printer",
+    "version": "1.0",
+    "description": "Prints selected text when right Ctrl is pressed twice",
+    "permissions": ["activeTab"],
+    "content_scripts": [
+      {
+        "matches": ["<all_urls>"],
+        "js": ["main.js"]
+      }
+    ]
+  }
