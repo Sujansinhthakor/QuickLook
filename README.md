@@ -11,6 +11,7 @@ The **Instant Word Meaning** Chrome extension provides users with the ability to
 * Easy-to-use interface with a simple shortcut to show the meaning.
 * Lightweight and fast—does not slow down browsing.
 * Works across various websites and web applications.
+* Provides audio pronunciation (when available)
 
 ## Demo
 
@@ -43,3 +44,19 @@ https://github.com/user-attachments/assets/7d672f7b-98ef-4c63-a4fe-93e93576c20c
 1. Double-click the **Right Control** key after selecting any word on a webpage to see its meaning.
 2. The definition will appear in a popup without requiring you to leave the current page.
 .
+## Technical Details
+
+- The extension uses vanilla JavaScript and doesn't require any external libraries.
+- Definitions are fetched from the [Free Dictionary API](https://dictionaryapi.dev/).
+- The extension listens for the right Control key presses and checks for double-presses within a 500ms window.
+- It creates a custom tooltip to display the definition and pronunciation icon.
+
+## Limitations
+
+- Works only for single words (no spaces allowed in selection).
+- Requires internet connection to fetch definitions.
+- Audio pronunciation is not available for all words.
+
+## Contributing
+
+Contributions to improve the extension are welcome. Please feel free to submit pull requests or open issues to suggest enhancements or report bugs.
