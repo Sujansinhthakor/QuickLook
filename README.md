@@ -16,7 +16,11 @@ The **Instant Word Meaning** Chrome extension provides users with the ability to
 ## Demo
 
 
-https://github.com/user-attachments/assets/7d672f7b-98ef-4c63-a4fe-93e93576c20c
+
+
+https://github.com/user-attachments/assets/b90e725e-a786-40fa-8653-7115a99a28b8
+
+
 
 
 ## Installation
